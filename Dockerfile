@@ -1,6 +1,6 @@
-FROM debian:stable-slim
+FROM quay.io/spivegin/tlmbasedebian
 
-ENV OMNIDB_VERSION=2.14.0
+ENV OMNIDB_VERSION=2.16.0
 ENV SERVICE_USER=omnidb
 
 WORKDIR /${SERVICE_USER}
